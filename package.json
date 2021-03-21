@@ -1,0 +1,15 @@
+{
+  "name": "risen-world",
+  "version": "0.1.0",
+  "description": "Strategic narrative toy, mashing up some Roguelike, 4X and CRPG concepts",
+  "main": "index.js",
+  "repository": "https://github.com/grendel-consulting/risen-world.git",
+  "author": "James Ramirez <ramirezj@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^9.1.1"
+  },
+  "scripts": {
+    "release": "standard-version"
+  }
+}
