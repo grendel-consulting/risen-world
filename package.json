@@ -7,6 +7,9 @@
   "author": "James Ramirez <ramirezj@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "husky": "=4",
+    "lint-staged": ">=10",
+    "prettier": "^2.2.1",
     "standard-version": "^9.1.1"
   },
   "scripts": {
@@ -51,5 +54,13 @@
         "@ramirezj"
       ]
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   }
 }
