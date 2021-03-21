@@ -11,5 +11,37 @@
   },
   "scripts": {
     "release": "standard-version"
+  },
+  "renovate": {
+    "extends": [
+      "config:base",
+      ":pinAllExceptPeerDependencies",
+      "schedule:weekly"
+    ],
+    "labels": [
+      "dependencies"
+    ],
+    "packageRules": [{
+      "depTypeList": ["dependencies", "peerDependencies"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },{
+      "depTypeList": ["devDependencies"],
+      "automerge": true
+    }],
+    "postUpdateOptions": [
+      "yarnDedupeHighest"
+    ],
+    "timezone": "Europe/London",
+    "vulnerabilityAlerts": {
+      "labels": [
+        "security"
+      ],
+      "assignees": [
+        "@ramirezj"
+      ]
+    }
   }
 }
