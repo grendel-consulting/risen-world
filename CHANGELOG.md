@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/grendel-consulting/risen-world/compare/v0.1.2...v0.1.3) (2021-03-21)
+
+
+### Build System
+
+* configure Dependabot for evergreen GitHub Actions ([23d5a2d](https://github.com/grendel-consulting/risen-world/commit/23d5a2d103521c9c189ae088cc01d1ffe7b17082))
+
 ### [0.1.2](https://github.com/grendel-consulting/risen-world/compare/v0.1.1...v0.1.2) (2021-03-21)
 
 
