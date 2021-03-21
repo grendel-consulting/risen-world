@@ -1,0 +1,16 @@
+name: Welcome Contributors!
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        issue-message: '# Thank you for raising this request.\nBe sure to reviw our contributors guidelines' first issue.'
+        pr-message: 'Thank you for making your first pr; be sure you have read our Code of Conduct and contributors guidelines'
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
