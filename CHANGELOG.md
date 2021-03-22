@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/grendel-consulting/risen-world/compare/v0.1.4...v0.1.5) (2021-03-22)
+
+
+### Bug Fixes
+
+* formatting to support GFMD checklist ([6624e2c](https://github.com/grendel-consulting/risen-world/commit/6624e2c162961083f1d31433a2b630968448be74))
+* formatting, typos and increment version ([6eb571a](https://github.com/grendel-consulting/risen-world/commit/6eb571afbaf07caab981c426e977c238e6cf7cc4))
+* include empty linting rules ([8ca225f](https://github.com/grendel-consulting/risen-world/commit/8ca225f9a9bfe67daa6f178c91705eb7e107b52a))
+* test linting ([61fc370](https://github.com/grendel-consulting/risen-world/commit/61fc37074e8e89e0033f0e8da4ddce69cf8ec0f5))
+
+
+### Others
+
+* fix formatting in Markdown ([3c9d8ce](https://github.com/grendel-consulting/risen-world/commit/3c9d8ce855b9da5ad955287b268f264ae137318d))
+* **deps:** bump github/super-linter from v3 to v3.15.3 ([0c69924](https://github.com/grendel-consulting/risen-world/commit/0c6992407fccc0fba34572ea70d0421a7b80b2ae))
+* **deps:** pin dependencies ([99bf750](https://github.com/grendel-consulting/risen-world/commit/99bf750e7df6de76c7d9767d0bf0836277854ba7))
+
+
+### Build System
+
+* configure JavaScript linting to align with Prettier ([1a75bd7](https://github.com/grendel-consulting/risen-world/commit/1a75bd779a0f61be6d0d48c19ccf9530487bf886))
+* configure Super Linter to work with ES Lint config ([251e400](https://github.com/grendel-consulting/risen-world/commit/251e400618c4e6cedbb10dc81575edc031bdb786))
+* ensure everything is linted ([78d3947](https://github.com/grendel-consulting/risen-world/commit/78d394771b7f53ac33dcaf7c1ed11cfcf1f256e5))
+* re-enable Markdown linting ([bbfa2e0](https://github.com/grendel-consulting/risen-world/commit/bbfa2e06a2ee5587a7b42f898b28319b6823fc38))
+* run ES Lint and MarkdownLint in pre-commit hooks ([71f7c80](https://github.com/grendel-consulting/risen-world/commit/71f7c802de086894aa64e5915adeab7108f56ac3))
+* tweak ES Lint settings for modern JavaScript ([bb39636](https://github.com/grendel-consulting/risen-world/commit/bb39636e36cd18af0abb522ebdb5f57f78bd235c))
+
 ### [0.1.4](https://github.com/grendel-consulting/risen-world/compare/v0.1.3...v0.1.4) (2021-03-21)
 
 
