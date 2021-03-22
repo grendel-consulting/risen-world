@@ -58,9 +58,9 @@ in this section together with things to watch out for.
 
 ### Our Security Checklist
 
-- [] You MUST encode, escape and validate any inputs
-- [] You MUST NOT commit secrets, passwords or keys
-- [] You SHOULD pin any new dependencies
+- [ ] You MUST encode, escape and validate any inputs
+- [ ] You MUST NOT commit secrets, passwords or keys
+- [ ] You SHOULD pin any new dependencies
 
 ### Recommendations
 
