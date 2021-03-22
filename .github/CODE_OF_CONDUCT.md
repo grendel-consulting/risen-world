@@ -67,10 +67,12 @@ members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][cc_home], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+This Code of Conduct is adapted from the [Contributor Covenant][cc_home],
+version 1.4, available at
+<https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
 
-For answers to common questions about this code of conduct, see their [FAQ][cc_faq]
+For answers to common questions about this code of conduct, see their
+[FAQ][cc_faq]
 
 [hello]: mailto:hello@grendel-consulting.com
 [cc_home]: https://www.contributor-covenant.org
