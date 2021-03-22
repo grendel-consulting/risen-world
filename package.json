@@ -6,6 +6,20 @@
   "repository": "https://github.com/grendel-consulting/risen-world.git",
   "author": "James Ramirez <ramirezj@users.noreply.github.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": {
+    "production": [
+      "last 1 versions",
+      "not dead",
+      ">5%"
+    ],
+    "ssr": [
+      "node 14",
+      "node 15"
+    ]
+  },
   "devDependencies": {
     "eslint": "7.22.0",
     "eslint-config-prettier": "8.1.0",
