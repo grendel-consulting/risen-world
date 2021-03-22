@@ -64,6 +64,14 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js}": [
+      "eslint",
+      "prettier --write"
+    ],
+    "*.{css}": "prettier --write",
+    "*.{md}": [
+      "markdownlint",
+      "prettier --write"
+    ]
   }
 }
