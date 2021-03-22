@@ -58,9 +58,9 @@ in this section together with things to watch out for.
 
 ### Our Security Checklist
 
-[] You MUST encode, escape and validate any inputs
-[] You MUST NOT commit secrets, passwords or keys
-[] You SHOULD pin any new dependencies
+- [] You MUST encode, escape and validate any inputs
+- [] You MUST NOT commit secrets, passwords or keys
+- [] You SHOULD pin any new dependencies
 
 ### Recommendations
 
@@ -97,6 +97,7 @@ All notable changes to this policy should be noted below. We use
 
 ### Version History
 
+- 1.0.1 (2021-03-22) - Fix typos and linting problems
 - 1.0.0 (2021-03-21) - Initial policy and procedures
 
 ## Attribution
