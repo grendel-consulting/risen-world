@@ -1,0 +1,5 @@
+# Dependencies
+node_modules/
+
+# Caches and Generated Content
+CHANGELOG.md
