@@ -1,7 +1,7 @@
-'use strict'
+"use strict";
 
 const echo = (string) => {
-  return string
-}
+  return string;
+};
 
-module.exports = { echo }
+module.exports = { echo };
