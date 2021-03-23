@@ -12,7 +12,11 @@ out what works, and for that other perspectives matter.
 Our project and everyone participating in it are governed by our
 [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to
 uphold this code. Please report unacceptable behavior to the project team at
-[hello@grendel-consulting.com](mailto:hello@grendel-consulting.com)
+[hello@grendel-consulting.com](mailto:hello@grendel-consulting.com) or through
+the options to report an abusive
+[issue](https://docs.github.com/en/github/building-a-strong-community/reporting-abuse-or-spam#reporting-an-issue-or-pull-request)
+or
+[comment](https://docs.github.com/en/github/building-a-strong-community/reporting-abuse-or-spam#reporting-a-comment)
 
 ## Getting Started
 
