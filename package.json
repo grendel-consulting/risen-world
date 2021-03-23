@@ -21,15 +21,45 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "8.1.0",
+    "eslint-import-resolver-root-import": "^1.0.4",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
     "markdownlint-cli": "^0.27.1",
     "prettier": "2.2.1",
-    "standard-version": "9.1.1"
+    "standard-version": "9.1.1",
+    "typescript": "^4.2.3"
   },
   "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "type-check": "tsc",
+    "lint": "yarn run lint:md && yarn run lint:ts",
+    "lint:md": "markdownlint \"**/*.+(md|mdx)\"",
+    "lint:ts": "eslint --ignore-path .gitignore \"**/*.+(ts|js|tsx)\"",
+    "format": "yarn run format:md && yarn run format:json && yarn run format:ts && yarn run format:yaml",
+    "format:md": "prettier \"**/*.+(md|mdx)\" --write",
+    "format:json": "prettier \"**/*.+(json)\" --write",
+    "format:ts": "prettier \"**/*.+(jsjsx|ts|tsx)\" --write",
+    "format:yaml": "prettier \"**/*.+(yml|yaml)\" --write",
     "release": "standard-version"
   },
   "renovate": {
@@ -74,18 +104,32 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": [
+        "yarn run type-check"
+      ]
     }
   },
   "lint-staged": {
-    "*.{js}": [
-      "eslint",
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
       "prettier --write"
     ],
     "*.{css}": "prettier --write",
-    "*.{md}": [
-      "markdownlint",
+    "*.{json,md,mdx,yml,yaml}": [
+      "markdownlint --fix",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "gatsby": "^3.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tsconfig-paths-webpack-plugin": "^3.5.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

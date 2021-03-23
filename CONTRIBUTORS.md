@@ -12,9 +12,9 @@ to the list of contributors below. Further information is in our
 
 ## Individual Contributors
 
-* Your name here?
+- Your name here?
 
 ## Bots (and GitHubs Apps)
 
-* [@dependabot](https://github.com/apps/dependabot)
-* [@renovate-bot](https://github.com/apps/renovate)
+- [@dependabot](https://github.com/apps/dependabot)
+- [@renovate-bot](https://github.com/apps/renovate)

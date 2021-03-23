@@ -24,9 +24,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           LINTER_RULES_PATH: /
-
-          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.yml
-          VALIDATE_JAVASCRIPT_ES: true
+          IGNORE_GITIGNORED_FILES: true
 
           MARKDOWN_CONFIG_FILE: .markdownlint.yml
           VALIDATE_MARKDOWN: true

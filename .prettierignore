@@ -2,5 +2,6 @@
 node_modules/
 
 # Caches and Generated Content
+.cache
 CHANGELOG.md
 public
