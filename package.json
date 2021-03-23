@@ -1,6 +1,6 @@
 {
   "name": "risen-world",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Strategic narrative toy, mashing up some Roguelike, 4X and CRPG concepts",
   "main": "index.js",
   "repository": "https://github.com/grendel-consulting/risen-world.git",

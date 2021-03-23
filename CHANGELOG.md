@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/grendel-consulting/risen-world/compare/v0.1.5...v0.1.6) (2021-03-23)
+
+
+### Features
+
+* introduce Gatsby with Tyepscript based on starter ([d829ce9](https://github.com/grendel-consulting/risen-world/commit/d829ce9d9f9e216d5dc7d34de0adf1cf73171c96))
+* introduce Theme-UI and MDX pages ([ea15c53](https://github.com/grendel-consulting/risen-world/commit/ea15c5372ede479bab428f1e1199aa2be3cc6900))
+
+
+### Bug Fixes
+
+* disable super-linter for Javascript, relying on locally connfigured rules ([6f39c49](https://github.com/grendel-consulting/risen-world/commit/6f39c49814e54eb0cc3d33a7c23401feec590f5f))
+* eslint-plugin-react-hooks unsupported by super-linter ([8f73a47](https://github.com/grendel-consulting/risen-world/commit/8f73a47f87b349ddb72545f599c4203a4d65bb4b))
+* exclude ES Linnt entirely ([fe4a8f7](https://github.com/grendel-consulting/risen-world/commit/fe4a8f7e62aab23c51d4d383941a668b0fc89594))
+
+
+### Build System
+
+* pin node ad browser versions ([912a7ce](https://github.com/grendel-consulting/risen-world/commit/912a7ce6d1f62b680fe09f39b809a5f8cef3ad84))
+
+
+### Docs
+
+* ensure responsible contributors welcome ([99c852c](https://github.com/grendel-consulting/risen-world/commit/99c852cdc064e1ec7f01e350f7cfd55175b26b2d))
+
+
+### Others
+
+* **deps:** include missing linting plugin ([2942ff6](https://github.com/grendel-consulting/risen-world/commit/2942ff67949e830ed578de36d7e1f2962dae6ab2))
+* ensure code ownership can be assigned ([9283f1c](https://github.com/grendel-consulting/risen-world/commit/9283f1c07210d858f42bbd2405c34d951f23fc1b))
+
 ### [0.1.5](https://github.com/grendel-consulting/risen-world/compare/v0.1.4...v0.1.5) (2021-03-22)
 
 
