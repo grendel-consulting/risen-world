@@ -13,9 +13,9 @@ Have you read our Code of Conduct? By filing an Issue, you are expected to compl
 
 ### Prerequisites
 
-* [ ] Put an X between the brackets on this line if you have done all of the following:
-    1. Checked the FAQs on the wiki for common suggestions: <https://github.com/grendel-consulting/static-site-template/wiki>
-    2. Checked that your issue isn't already filed: <https://github.com/grendel-consulting/static-site-template/issues?q=is%3Aissue>
+- [ ] Put an X between the brackets on this line if you have done all of the following:
+  1. Checked the FAQs on the wiki for common suggestions: <https://github.com/grendel-consulting/static-site-template/wiki>
+  2. Checked that your issue isn't already filed: <https://github.com/grendel-consulting/static-site-template/issues?q=is%3Aissue>
 
 ### How Can You Help?
 
