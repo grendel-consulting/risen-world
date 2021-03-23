@@ -27,7 +27,7 @@ jobs:
           IGNORE_GITIGNORED_FILES: true
 
           JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.json
-          VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_JAVASCRIPT_ES: false
 
           MARKDOWN_CONFIG_FILE: .markdownlint.yml
           VALIDATE_MARKDOWN: true
