@@ -33,14 +33,14 @@ module.exports = {
     "!**/public/**",
     "!**/vendor/**"
   ],
-  coverageReporters: ["lcov"],
+  coverageReporters: ["json-summary", "lcov"],
   coverageDirectory: "coverage",
   coverageThreshold: {
     global: {
       branches: 0,
-      functions: 0,
-      lines: 0,
-      statements: 0
+      functions: 11.11,
+      lines: 4.62,
+      statements: 4.62
     },
   },
   moduleDirectories: ["node_modules", "src"]
