@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/grendel-consulting/risen-world/compare/v0.1.7...v0.1.8) (2021-03-27)
+
+
+### Others
+
+* **deps:** bump CodeClimate coverage reporter action ([3fc5cd8](https://github.com/grendel-consulting/risen-world/commit/3fc5cd88c8955f37a084e72e7063e8f75a612e38))
+
 ### [0.1.7](https://github.com/grendel-consulting/risen-world/compare/v0.1.6...v0.1.7) (2021-03-27)
 
 
