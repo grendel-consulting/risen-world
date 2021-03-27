@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/grendel-consulting/risen-world/compare/v0.1.6...v0.1.7) (2021-03-27)
+
+
+### Bug Fixes
+
+* disable line-length check for badges ([76f4880](https://github.com/grendel-consulting/risen-world/commit/76f488033f5cec94c19307eacb2694befbe662c5))
+* omitted whitespace ([5f2ee7c](https://github.com/grendel-consulting/risen-world/commit/5f2ee7c918822315838e38e45eb9cd60a23ce210))
+
+
+### Docs
+
+* ensure abuse reporting options clearly flagged ([f00a8f6](https://github.com/grendel-consulting/risen-world/commit/f00a8f63644d9e651921e62a3816354898b30f16))
+
+
+### Build System
+
+* badges for Code Climate ([11b50e5](https://github.com/grendel-consulting/risen-world/commit/11b50e578fcede64045c1249ba5523c4a0fd44ea))
+* bump coverage thresholds automagically ([b60981b](https://github.com/grendel-consulting/risen-world/commit/b60981be8e9b485b8260b162e865d034f46700ee))
+* introduce Jest unit testing with coverage reporting ([e781f39](https://github.com/grendel-consulting/risen-world/commit/e781f3947025767e59e17bc2e310f304ea2f4c89))
+* tune coverage report ([03de634](https://github.com/grendel-consulting/risen-world/commit/03de634fa8d4600e1b5189b343f9e51ff90acebb))
+
+
+### CI
+
+* wire up testsand coverage reportig with CodeClimate ([7e42cbd](https://github.com/grendel-consulting/risen-world/commit/7e42cbd87833761031860182f9d09368cfe287c4))
+
 ### [0.1.6](https://github.com/grendel-consulting/risen-world/compare/v0.1.5...v0.1.6) (2021-03-23)
 
 
