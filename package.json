@@ -70,7 +70,8 @@
     "format:ts": "prettier \"**/*.+(jsjsx|ts|tsx)\" --write",
     "format:yaml": "prettier \"**/*.+(yml|yaml)\" --write",
     "release": "standard-version",
-    "test": "jest --coverage --watchAll=false",
+    "test": "jest",
+    "test:coverage": "jest --coverage --watchAll=false",
     "posttest": "jest-it-up"
   },
   "renovate": {
