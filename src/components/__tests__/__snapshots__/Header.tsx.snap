@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <div
+    className="css-btmb2w"
+  >
+    <div
+      className="css-1yrmf69"
+    >
+      <h1
+        className="css-1eq3ttl-PureHeader"
+      >
+        <a
+          className="css-1uop0s9-PureHeader"
+          href="/"
+        >
+          Risen World
+        </a>
+      </h1>
+    </div>
+  </div>
+</header>
+`;
