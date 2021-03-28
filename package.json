@@ -125,14 +125,15 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
+      "eslint",
       "prettier --write"
     ],
     "*.{css}": "prettier --write",
-    "*.{json,md,mdx,yml,yaml}": [
-      "markdownlint --fix",
+    "*.{md,mdx}": [
+      "markdownlint",
       "prettier --write"
-    ]
+    ],
+    "*.{json,yml,yaml}": "prettier --write"
   },
   "dependencies": {
     "@babel/core": "^7.13.10",
