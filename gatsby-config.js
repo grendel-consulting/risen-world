@@ -3,6 +3,7 @@ module.exports = {
     title: "Risen World",
     description: `Strategic narrative toy, mashing up some Roguelike, 4X and CRPG concepts`,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
   // don't need to define it here (just if you need to change the options)
   plugins: [
@@ -15,18 +16,20 @@ module.exports = {
           default: require.resolve(`${__dirname}/src/templates/Page.tsx`),
           posts: require.resolve(`${__dirname}/src/templates/Post.tsx`),
         },
-        gatsbyRemarkPlugins: [{
-          resolve: "gatsby-remark-images",
-          options: {
-            maxWidth: 800,
-          }
-        }],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
       },
     },
     {
       resolve: "gatsby-plugin-page-creator",
       options: {
-        path: `${__dirname}/src/posts`
+        path: `${__dirname}/src/posts`,
       },
     },
     "gatsby-plugin-theme-ui",
