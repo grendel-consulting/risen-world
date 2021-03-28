@@ -32,6 +32,17 @@
         "js": "never",
         "jsx": "never"
       }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          ".storybook/**",
+          "**/*.stories.tsx",
+          "**/*.tests.tsx",
+          "jest*.js"
+        ]
+      }
     ]
   },
   "overrides": [
