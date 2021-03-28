@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/grendel-consulting/risen-world/compare/v0.1.9...v0.1.10) (2021-03-28)
+
+
+### Bug Fixes
+
+* separate out test cases and tidy up linting ([073d4ce](https://github.com/grendel-consulting/risen-world/commit/073d4ced3cee3577e44411ca891dd7e96b459aa9))
+
+
+### Others
+
+* **deps:** bump CodeClimate coverage node version ([e45c9b8](https://github.com/grendel-consulting/risen-world/commit/e45c9b8d6692f791ba47c8befdbe58ab285e97aa))
+
+
+### Build System
+
+* enforce commit message linting ([75f411d](https://github.com/grendel-consulting/risen-world/commit/75f411df449ea47b12c30b5d637072a826a8ba06))
+* fixed Husky on the cli, v4->v5 ([cf36ad6](https://github.com/grendel-consulting/risen-world/commit/cf36ad667a0749cd5986fb0db5291776b2bad535))
+* introduce Storybook for visual testing ([ed19168](https://github.com/grendel-consulting/risen-world/commit/ed191685a5458f0db42ad4a32dc9c86d9eb2f80d))
+
+
+### Docs
+
+* badge for build pipeline status ([593881c](https://github.com/grendel-consulting/risen-world/commit/593881c6ca40625681514835e7f63820fc46b840))
+
 ### [0.1.9](https://github.com/grendel-consulting/risen-world/compare/v0.1.8...v0.1.9) (2021-03-27)
 
 ### [0.1.8](https://github.com/grendel-consulting/risen-world/compare/v0.1.7...v0.1.8) (2021-03-27)
