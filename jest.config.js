@@ -21,6 +21,7 @@ module.exports = {
     `<rootDir>.*/public`,
     `<rootDir>/gatsby.*js`,
     `<rootDir>/jest.*js`,
+    `<rootDir>/cypress`,
   ],
   transformIgnorePatterns: [`node_modules/(?!(gatsby)/)`],
   globals: {
@@ -33,6 +34,7 @@ module.exports = {
     "**/*.{js,jsx,ts,tsx}",
     "!**/.cache/**",
     "!**/coverage/**",
+    "!**/cypress/**",
     "!**/gatsby*.js",
     "!**/jest*.js",
     "!**/node_modules/**",

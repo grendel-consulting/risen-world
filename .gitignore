@@ -22,10 +22,12 @@ node_modules/
 
 # Caches and Generated Content
 .cache/
-.DS_Cache
+.DS_Store
 .eslintcache
 .node_repl_history
 .npm
+cypress/screenshots
+cypress/videos
 public
 *.tsbuildinfo
 

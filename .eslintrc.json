@@ -16,7 +16,12 @@
     "SharedArrayBuffer": "readonly"
   },
   "plugins": ["react", "react-hooks", "jsx-a11y", "jest"],
-  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:cypress/recommended",
+    "airbnb",
+    "prettier"
+  ],
   "rules": {
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
