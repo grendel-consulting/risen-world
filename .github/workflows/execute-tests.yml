@@ -1,8 +1,7 @@
 name: Execute Tests
 on:
   pull_request:
-    paths:
-      - "!*.md"
+
 jobs:
   test-unit:
     strategy:
