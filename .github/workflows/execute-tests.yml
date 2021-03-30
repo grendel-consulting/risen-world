@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install -g yarn
-      - run: yarn install --frozen-lockfile --network-timeout 2400
+      - run: yarn install --frozen-lockfile --network-timeout 32000
       - run: yarn build
       - run: yarn test
   test-integration:
@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: "14"
       - run: npm install -g yarn
-      - run: yarn install --frozen-lockfile --network-timeout 2400
+      - run: yarn install --frozen-lockfile --network-timeout 32000
       - run: yarn build
       - uses: cypress-io/github-action@v2
         with:
