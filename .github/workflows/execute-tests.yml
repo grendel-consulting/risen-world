@@ -1,0 +1,40 @@
+name: Build Pipeline
+on:
+  pull_request:
+    paths:
+      - "!*.md"
+jobs:
+  test-unit:
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, macOS-latest]
+        node: ["15", "14"]
+    name: test/node ${{ matrix.node }}/${{ matrix.platform }}
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm install -g yarn
+      - run: yarn install
+      - run: yarn build
+      - run: yarn test
+  test-integration:
+    needs: [test]
+    name: test/e2e
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: "14"
+      - run: npm install -g yarn
+      - run: yarn install
+      - run: yarn build
+      - uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          headless: true
+          start: npm start
+          wait-on: "http://localhost:8080"
