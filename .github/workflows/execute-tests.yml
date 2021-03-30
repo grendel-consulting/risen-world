@@ -1,4 +1,4 @@
-name: Build Pipeline
+name: Execute Tests
 on:
   pull_request:
     paths:
