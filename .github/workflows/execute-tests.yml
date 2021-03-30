@@ -35,5 +35,5 @@ jobs:
         with:
           browser: chrome
           headless: true
-          start: npm start
+          start: yarn test:e2e:ci
           wait-on: "http://localhost:8080"
