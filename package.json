@@ -86,7 +86,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "test:e2e": "start-server-and-test start http://localhost:8000 cypress:open",
-    "test:e2e:ci": "start-server-and-test start http://localhost:8000",
+    "test:e2e:ci": "start-server-and-test start http://localhost:8000 cypress:run",
     "posttest": "jest-it-up",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
