@@ -20,7 +20,7 @@ jobs:
       - run: yarn build
       - run: yarn test
   test-integration:
-    needs: [test]
+    needs: [test-unit]
     name: test/e2e
     runs-on: ubuntu-latest
     steps:
