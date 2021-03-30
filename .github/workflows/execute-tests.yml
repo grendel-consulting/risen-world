@@ -1,8 +1,7 @@
-name: Build Pipeline
+name: Execute Tests
 on:
   pull_request:
-    paths:
-      - "!*.md"
+
 jobs:
   test-unit:
     strategy:
@@ -17,11 +16,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install -g yarn
-      - run: yarn install
+      - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
       - run: yarn test
   test-integration:
-    needs: [test]
+    needs: [test-unit]
     name: test/e2e
     runs-on: ubuntu-latest
     steps:
@@ -30,11 +29,11 @@ jobs:
         with:
           node-version: "14"
       - run: npm install -g yarn
-      - run: yarn install
+      - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
       - uses: cypress-io/github-action@v2
         with:
           browser: chrome
           headless: true
-          start: npm start
-          wait-on: "http://localhost:8080"
+          start: yarn start
+          wait-on: "http://localhost:8000"
