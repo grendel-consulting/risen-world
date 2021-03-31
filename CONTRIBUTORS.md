@@ -18,3 +18,4 @@ to the list of contributors below. Further information is in our
 
 - [@dependabot](https://github.com/apps/dependabot)
 - [@renovate-bot](https://github.com/apps/renovate)
+- [@snyk-bot](https://github.com/snyk-bot)
