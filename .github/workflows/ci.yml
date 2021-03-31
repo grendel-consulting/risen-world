@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install -g yarn
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
       - run: yarn test
   coverage:
@@ -40,7 +40,7 @@ jobs:
         with:
           node-version: "14"
       - run: npm install -g yarn
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
       - uses: paambaati/codeclimate-action@v2.7.5
         env:
