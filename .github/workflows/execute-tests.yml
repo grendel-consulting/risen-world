@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: ${{ matrix.node }}
+      - uses: actions/cache@master
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
@@ -28,6 +32,10 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: "14"
+      - uses: actions/cache@master
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
