@@ -32,10 +32,6 @@ jobs:
       - uses: actions/setup-node@v2.1.5
         with:
           node-version: "14"
-      - uses: actions/cache@v2.1.4
-        with:
-          path: "**/node_modules"
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile --network-timeout 320000
       - run: yarn build
