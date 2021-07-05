@@ -118,6 +118,12 @@
           "devDependencies"
         ],
         "automerge": true
+      },
+      {
+        "depTypeList": [
+          "resolutions"
+        ],
+        "rangeStrategy": "widen"
       }
     ],
     "postUpdateOptions": [
